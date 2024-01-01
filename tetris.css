@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(-45deg, #00040b, #34797d, #00040b, #ffffff);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 5px;
+
+  text-shadow: 0 0 80px rgba(173, 173, 173, 0.7)
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 5px;
+
+  transition: all 1s;
+  text-shadow: 0 0 80px rgba(173, 173, 173, 0.7)
+}
+
+h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 5px;
+
+  transition: all 1s;
+  text-shadow: 0 0 80px rgba(173, 173, 173, 0.7)
+}
+h5 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 5px;
+
+  transition: all 1s;
+  text-shadow: 0 0 80px rgba(173, 173, 173, 0.7)
+}
+
+h6 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 10px;
+
+  transition: all 1s;
+  text-shadow: 0 0 80px rgba(173, 173, 173, 0.7)
+}
+
+
+.textGreen {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  color: rgba(54, 255, 114, 0.8);
+  letter-spacing: 5px;
+
+  text-shadow: 0 0 20px rgba(54, 255, 114, 1);
+  
+  text-shadow: 0 0 10px rgba(54, 255, 114, 1);
+  
+  transition: all 1s;
+}
+
+.textFade{
+  
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  color: rgba(54, 255, 114, 0.3);
+  letter-spacing: 5px;
+
+  text-shadow: 0 0 80px rgba(173, 173, 173, 0);
+  
+  transition: all 1s;
+
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.app{
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+.root {
+  backdrop-filter: blur(5px);
+  padding: 30px 90px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 3px solid rgba(235, 235, 235, 0.5);
+}
+
+.next {
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 3px solid rgba(235, 235, 235, 0.5);
+  width: 100px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* Cambio de 'center' a 'flex-start' */
+  align-items: center;
+  transition: all 1s;
+  margin-bottom: 400px;
+}
+
+.score {
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 3px solid rgba(235, 235, 235, 0.5);
+
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+
+  margin-bottom: 400px;
+}
+
+
+th {
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  border: 1px solid black;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.05s ease-out
+}
+
+.box-0 {
+  z-index: -99;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  box-shadow: inset 0 10px 10px rgba(112, 112, 112, 0.0);
+}
+
+.box-1 {
+  background-color: rgb(250, 216, 20, 0.9)
+}
+
+.box-2 {
+  background-color: rgb(96, 39, 120, 0.9)
+}
+
+.box-3 {
+  background-color: rgba(1, 194, 222, 0.9);
+}
+
+.box-4 {
+  background-color: rgba(0, 66, 141, 0.9)
+}
+
+.box-5 {
+  background-color: rgba(255, 138, 2, 0.9)
+}
+
+.box-6 {
+  background-color: rgba(244, 53, 69, 0.9)
+}
+
+.box-7 {
+  background-color: rgb(1, 186, 114, 0.9);
+}
+
+.move {
+  box-shadow: 0 0 50px rgb(153, 0, 255);
+  z-index: 999;
+}
+
+.box-delete {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s ease-out;
+
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 80px rgba(255, 255, 255, 0.7);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circles {
+  z-index: -99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+
+}
