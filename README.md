@@ -1,5 +1,7 @@
 # 🎮 Tetris
 ![Fecha](https://img.shields.io/badge/Fecha-Enero%202024-cian)
+![Estado](https://img.shields.io/badge/Estado-Proyecto%20de%20Aprendizaje-blue)
+![Tecnologías](https://img.shields.io/badge/Stack-HTML%20%7C%20CSS%20%7C%20JavaScript-orange)
 
 Mi primer proyecto después de completar un curso de JavaScript moderno. Quería algo que realmente me retara de una manera mucho más entretenida que un simple reproductor de música, así que decidí recrear el clásico Tetris desde cero, basándome en un video de **Midudev**, pero el tema de la apariencia y el como se ha manejado eso es lo más rudimentario posible, utilice una simple tabla del html  y con clases de css fui adaptando cada cuadrito según era el caso, aquí nació mi pasión por hacer fondos en movimiento jajaj.
 
