@@ -4,9 +4,7 @@
 ![Estado](https://img.shields.io/badge/Estado-Proyecto%20de%20Aprendizaje-blue)
 ![Tecnologías](https://img.shields.io/badge/Stack-HTML%20%7C%20CSS%20%7C%20JavaScript-orange)
 
-## 📸 Vista Previa
 
-![Captura de Tetris](https://github.com/user-attachments/assets/c5c3e0c2-c2d0-4c8f-872c-f6e0c5a3e5a8)
 
 Mi primer proyecto después de completar un curso de JavaScript moderno. Quería algo que realmente me retara de una manera mucho más entretenida que un simple reproductor de música, así que decidí recrear el clásico Tetris desde cero, basándome en un video de **Midudev**, pero el tema de la apariencia y el como se ha manejado eso es lo más rudimentario posible, utilice una simple tabla del html y con clases de css fui adaptando cada cuadrito según era el caso, aquí nació mi pasión por hacer fondos en movimiento jajaj.
 
@@ -27,6 +25,10 @@ Mi primer proyecto después de completar un curso de JavaScript moderno. Quería
 | →     | Mover derecha   |
 | ↓     | Acelerar caída  |
 | ↑     | Rotar pieza     |
+
+## 📸 Vista Previa
+
+![Captura de Tetris](screenshot.png)
 
 ## 🛠️ Tecnologías
 
